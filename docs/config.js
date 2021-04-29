@@ -4,6 +4,7 @@ const config = {
   "chapters": [
     {
       "title": "平成新山",
+      "description": "粘り気の強いデイサイトマグマが、火山の上に盛り上がってできた溶岩ドームです。",
       "hash": "14.13/32.7633/130.3011/-116.8/60",
       "id": "chapter-1",
       "alignment": "right",
@@ -29,6 +30,7 @@ const config = {
     },
     {
       "title": "佐世保工業高等専門学校",
+      "description": "長崎県内唯一の高等専門学校である",
       "hash": "17.77/33.149697/129.748356/64.8/62",
       "id": "chapter-2",
       "alignment": "right",

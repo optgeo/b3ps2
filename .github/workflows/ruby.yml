@@ -22,4 +22,9 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true
     - name: Run tests
-      run: rake config
+      run: |
+        rake config
+        git add docs/config.js
+        git commit -m 'update'
+        git push origin main
+
