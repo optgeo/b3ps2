@@ -1,16 +1,10 @@
-name: Ruby
-
+name: render config.js
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
 jobs:
-  test:
-
+  render:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: set up ruby
