@@ -107,6 +107,7 @@ const config = {
     },
     {
       "title": "奥多摩湖",
+      "description": "正式名称は小河内貯水池です。",
       "hash": "14.95/35.7801/139.03488/173.9/59",
       "id": "chapter-5",
       "alignment": "right",
