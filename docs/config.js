@@ -56,6 +56,7 @@ const config = {
     },
     {
       "title": "富士山",
+      "description": "静岡県と山梨県にまたがる活火山です。",
       "hash": "13.6/35.34613/138.73779/0/82",
       "id": "chapter-3",
       "alignment": "right",
