@@ -1,4 +1,4 @@
-name: Ruby-template
+name: Ruby
 
 on:
   push:
@@ -10,18 +10,14 @@ jobs:
   test:
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby-version: ['2.6', '2.7', '3.0']
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby
+    - name: set up ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: ${{ matrix.ruby-version }}
-        bundler-cache: true
-    - name: Run tests
+        ruby-version: 2.7
+    - name: render config.js
       run: |
         rake config
         git config --global user.name "${GITHUB_ACTOR}"
