@@ -132,7 +132,7 @@ const config = {
       }
     }
   ],
-  "footer": "YAML で storytelling しています",
+  "footer": "YAML と GitHub Action で storytelling しています",
   "accessToken": "pk.eyJ1IjoiaGZ1IiwiYSI6ImlRSGJVUTAifQ.rTx380smyvPc1gUfZv1cmw",
   "theme": "light",
   "showMarkers": false
