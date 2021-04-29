@@ -30,7 +30,7 @@ const config = {
     },
     {
       "title": "佐世保工業高等専門学校",
-      "description": "長崎県内唯一の高等専門学校である",
+      "description": "長崎県内唯一の高等専門学校です。",
       "hash": "17.77/33.149697/129.748356/64.8/62",
       "id": "chapter-2",
       "alignment": "right",
@@ -81,6 +81,7 @@ const config = {
     },
     {
       "title": "対馬空港",
+      "description": "愛称は対馬やまねこ空港です。",
       "hash": "13.84/34.28454/129.33033",
       "id": "chapter-4",
       "alignment": "right",
